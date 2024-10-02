@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyFanc.BusinessObjects\MyFanc.BusinessObjects.csproj" />
+    <ProjectReference Include="..\MyFanc.Contracts\MyFanc.Contracts.csproj" />
+    <ProjectReference Include="..\MyFanc.Core\MyFanc.Core.csproj" />
+    <ProjectReference Include="..\MyFanc.DAL\MyFanc.DAL.csproj" />
+    <ProjectReference Include="..\MyFanc.Services\MyFanc.Services.csproj" />
+  </ItemGroup>
+
+</Project>
